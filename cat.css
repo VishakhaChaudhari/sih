@@ -1,0 +1,167 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #625E5E;
+    width:100vw;
+    height:10vh;
+}
+
+nav > img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar{
+    width: 3vw;
+    height: 100vh;
+    background-color: #625E5E;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+
+}
+
+.sidebar > i{
+    color:white;
+    margin: 7px 0px;
+}
+
+.main{
+    position: absolute;
+    top:10vh;
+    left:3vw;
+}
+
+.single-box{
+    display:flex;
+    position:absolute;
+    top:5px;
+    left:135px;
+    width:150px;
+    margin-top: 3px;
+    padding: 3px;
+    border-radius: 5px;
+    height:40px;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+
+
+
+#one{
+    position:absolute;
+    top:5px;
+    left:170px;
+}
+
+
+#two {
+    position: relative;
+    left: 285px;
+    border:2px solid #D3C4C4;
+    
+
+    top: -45px;
+}
+
+.single-box > p{
+    color:white;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.single-box > i{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+
+#three{
+    position: absolute;
+    left:450px;
+}
+
+
+#four
+{
+    position: absolute;
+    left: 600px;
+}
+
+
+#five
+{
+    position: absolute;
+    left: 750px;
+}
+
+
+.box{
+    display: flex;
+    justify-content: end;
+    top: -74px;
+    left: -40px;
+    position: relative;
+
+    margin-left: 15px;
+ 
+}
+
+.box >i{
+    position:relative;
+    left:8px;
+    margin: 0 7px;
+    color:white;
+}
+
+.mainb{
+    /* border:2px solid red; */
+    position:absolute;
+    left:3vw;
+    top:10vh;
+    height:90vh;
+    width:97vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.o{
+    display:flex;
+}
+
+.t{
+    display:flex; 
+}
+
+.b1{
+    width:250px;
+    height: 90px;
+    /* border:2px solid red; */
+    border-radius: 15px 15px 15px 0;
+    display:flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 10px;
+    gap:5;
+    color:white;
+    /* background: #c03939; */
+    flex-wrap: wrap;
+    margin: 20px;
+
+
+}
+
+.b1>p{
+    margin-top: 7px;
+}
